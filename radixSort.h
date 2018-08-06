@@ -3,6 +3,7 @@
 //  infiniAnalyzer
 //
 //  Created by xubl on 01/05/2017.
+//  Modified by xux on 05/06/2017.
 //  Copyright © 2017 infiniGenomics. All rights reserved.
 //
 

@@ -2,6 +2,7 @@
 //  infiniAnalyzer
 //
 //  Created by xubl on 01/05/2017.
+//  Modified by xux on 05/06/2017.
 //  Copyright © 2017 infiniGenomics. All rights reserved.
 
 #include "radixSort.h"
@@ -17,7 +18,7 @@ int radixSort(int n, mapInfo_t * sourceList) {
         sum += counter[i];                                                                                  \
     }                                                                                                       \
     for (i = 0; i < n; i++) {                                                                               \
-        *(__dst + index[((__src + i)->__attr >> (__bits_n)) & __mask]++) = *(__src + i);                    \                                         \
+        *(__dst + index[((__src + i)->__attr >> (__bits_n)) & __mask]++) = *(__src + i);                    \
     }                                                                                                       \
     for(i = 0; i < _RADIX_; i++) {                                                                          \
         counter[i] = 0;                                                                                     \
